@@ -4,16 +4,16 @@ import PropTypes from 'prop-types';
 
 class Card extends React.Component {
   static propTypes = {
-       title: PropTypes.node.isRequired,
-   }
+    title: PropTypes.node.isRequired,
+  }
 
 
   render() {
     return (
       <section className={styles.component}>
-          {this.props.title}
+        {this.props.title}
       </section>
-    )
+    );
   }
 }
 
