@@ -12,6 +12,9 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    logo: 'dove',
+  },
 };
 
 export const pageContents = {
@@ -149,3 +152,16 @@ const initialStoreData = {
 };
 
 export default initialStoreData;
+
+export const info = {
+  title: 'This is website INFO',
+  subtitle: 'A simple to-do app, with lists, columns and cards',
+  image: 'https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+
+};
+export const faq = {
+  title: 'This is website FAQ',
+  subtitle: 'Lorem ipsum dolor sit amet',
+  image: 'https://images.pexels.com/photos/221164/pexels-photo-221164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+
+};
