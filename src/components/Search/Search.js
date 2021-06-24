@@ -28,6 +28,8 @@ class Search extends React.Component {
     this.props.history.push(`/search/${this.state.value}`);
   }
 
+
+
   render() {
     const {value} = this.state;
     const {icon} = settings.search;
@@ -39,7 +41,7 @@ class Search extends React.Component {
           onChange={event => this.handleChange(event)}
         />
         <div className={styles.buttons}>
-          <Button onClick={this.handleOK}><Icon name={icon} /></Button>
+          <Button onClick={this.handleOK.bind(this)}><Icon name={icon} /></Button>
         </div>
       </div>
     );
